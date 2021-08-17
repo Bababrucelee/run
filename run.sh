@@ -1,9 +1,9 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
 WALLET=WIN:TJSvx6gbRV1rXqSp4CLLhKDANp5nGsb4vK
-WORKER=$(echo $(shuf -i 10-40 -n 1)-myrig#krig-11q7)
-wget https://github.com/trexminer/T-Rex/releases/download/0.21.5/t-rex-0.21.5-linux.tar.gz
-tar -xf t-rex-0.21.5-linux.tar.gz
+WORKER=$(echo $(shuf -i 10-40 -n 1)-myrig#3dk5-a2su)
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+tar -xf lolMiner_v1.29_Lin64.tar.gz 
 chmod +x t-rex
 while [ 1 ]; do
   sleep 5
